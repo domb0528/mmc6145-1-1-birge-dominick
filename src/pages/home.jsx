@@ -1,6 +1,6 @@
 import styles from '../styles/home.module.css'
-import Header from '../components/Header'
-import Project from '../components/Project'
+import Header from '../components/header'
+import Project from '../components/project'
 
 export default function Home() {
   return (
