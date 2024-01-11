@@ -6,7 +6,7 @@ export default function Project(){
             </li>
 
             <li>
-            <p>Here is my project 1 <a href="https://vercel.com/domb0528/mmc6950-capstone-final2" target="_blank"></a>Project 1</p>
+            <p>Here is my project 1 <a href="https://espn.com" target="_blank"></a>Project 1</p>
 
 
 
