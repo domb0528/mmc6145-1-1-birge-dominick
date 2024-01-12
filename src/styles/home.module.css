@@ -1,3 +1,25 @@
 .placeholder {
   font-size: 4rem;
 }
+
+body {
+  background-color: aqua;
+}
+
+header {
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.contact {
+  text-align: center;
+}
