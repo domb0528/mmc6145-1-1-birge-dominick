@@ -1,20 +1,9 @@
-export default function Project(){
+export default function Project(props){
     return (
-        <ul>
-            <li>
-                <p>Here is my project 1 <a href="https://vercel.com/domb0528/mmc6950-capstone-final2" target="_blank"></a>Project 1</p>
-            </li>
-
-            <li>
-            <p>Here is my project 1 <a href="https://espn.com" target="_blank"></a>Project 1</p>
-
-
-
-            </li>
-
-            <li>
-                <p>Here is my project 2</p>
-            </li>
-        </ul>
+ <ul>
+    <h2>{props.title}</h2>
+    <p>{props.information}</p>
+    <a class="button" href="https://mmc6950-capstone-final2.vercel.app/" target="blank">Click Here</a>
+    </ul>
     )
 }
