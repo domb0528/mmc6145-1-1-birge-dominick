@@ -8,11 +8,11 @@ export default function Contact () {
 
          <p>To reach me click the links below</p>
 
-         <img src="images/linkdin.png" alt="logo"  />
+         <img src="public/linkdin.png" alt="logo"  />
 
          <p>Add me on my account <a href="https://www.linkedin.com/feed/" target="blank">Linkedin</a></p>
 
-         <img src="images/github.png" alt="logo" />
+         <img src="public/github.png" alt="logo" />
 
          <p>Here is my Repositories <a href="https://github.com/domb0528" target="blank">Git-Hub</a></p>
          
