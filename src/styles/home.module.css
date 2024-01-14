@@ -1,25 +1,56 @@
 .placeholder {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 body {
-  background-color: aqua;
+  background-image: url('images/background.jpg');
+  background-size: cover;
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: white;
+  background-color: transparent;
   padding: 15px;
 }
 
-h1 {
-  text-align: center;
-}
+h1, h2, p, ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: transparent;
 
-h2 {
-  text-decoration: underline;
 }
 
 .contact {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: red;
+  padding: 20px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  color: white;
+  background-color: transparent;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
