@@ -10,9 +10,9 @@ export default function Home() {
       <h2>Here are some of my projects I have worked on</h2>
       <h2>Click the links to go to my vercel account</h2>
 
-      <Project className={styles.placeholder} title="Project 1" information="My Capstone Project"/>
-      <Project title="Project 2" information="My placeholder"/>
-      <Project title="Project 3" information="My placeholder"/>
+      <Project className={styles.placeholder} title="Project 1" description="My Capstone Project"  />
+      <Project title="Project 2" description="My Web design pdf"/> 
+      <Project title="Project 3" description="Link to another pdf"/>
     </main>
   )
 }
