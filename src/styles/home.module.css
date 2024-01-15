@@ -54,3 +54,17 @@ img {
   align-items: center;
   margin: auto;
 }
+
+
+
+
+@media only screen and  (max-width: 375px) {
+  body {
+    background-size: contain;
+  }
+
+  header, h1, h2, p, ul, .contact, .aboutme, img {
+    flex-direction: column;
+  }
+
+}
