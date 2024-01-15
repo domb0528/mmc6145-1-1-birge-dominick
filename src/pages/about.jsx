@@ -2,7 +2,7 @@ export default function About () {
     return ( 
         <body>
             <h1>About page</h1>
-            <article className="about me"> 
+            <article> 
             
                 Hello, I'm Dominick Birge, and I'm in my last semester at the University of Florida 🐊 🐊 . I used to live in Denver but now call Fort Lauderdale my home which is my hometown.
 
