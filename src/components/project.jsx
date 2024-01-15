@@ -3,7 +3,7 @@ export default function Project(props){
  <ul>
     <h2>{props.title}</h2>
     <p>{props.description}</p>
-    <a  class="button" href="https://mmc6950-capstone-final2.vercel.app/" target="blank">Click Here</a>
+    <a  class="button" href={props.link} target="blank">Click Here</a>
     </ul>
     )
 }
