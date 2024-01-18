@@ -75,11 +75,13 @@ img {
 @media only screen and  (max-width: 768px) {
   h1, h2, p, ul {
     font-size: 14px;
+    justify-content: center;
   }
 
   article {
     font-size: 12px;
     margin: 30px auto 0;
+    justify-content: center;
   }
 
 }
