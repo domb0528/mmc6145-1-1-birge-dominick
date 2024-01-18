@@ -49,9 +49,15 @@ article {
 
 a{
   color: rebeccapurple;
-  padding: 5px;
-  margin: 15px;
+  padding: 1px;
+  margin: 5px;
   background-color: white;
+  transition: color 0.3s, background-color 0.3s;;
+}
+
+a:hover {
+  color:white;
+  background-color: rebeccapurple;
 }
 
 
@@ -66,13 +72,14 @@ img {
 
 
 
-@media only screen and  (max-width: 375px) {
-  body {
-    background-size: contain;
+@media only screen and  (max-width: 768px) {
+  h1, h2, p, ul {
+    font-size: 14px;
   }
 
-  header, h1, h2, p, ul, .contact, .aboutme, img {
-    flex-direction: column;
+  article {
+    font-size: 12px;
+    margin: 30px auto 0;
   }
 
 }

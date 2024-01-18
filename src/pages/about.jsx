@@ -1,7 +1,8 @@
+import styles from '../styles/home.module.css'
 export default function About () {
     return ( 
         <body>
-            <h1>About page</h1>
+            <h1 className={styles.placeholder}>About Page</h1>
             <article> 
             
                 Hello, I'm Dominick Birge, and I'm in my last semester at the University of Florida 🐊 🐊 . I used to live in Denver but now call Fort Lauderdale my home which is my hometown.
@@ -10,7 +11,7 @@ export default function About () {
 
                 If you want to get in touch, check out my contact page. I'm focused on becoming a better web developer, particularly in React. </article>
 
-        <img src="/aboutme.jpg" alt="Dominick Birge" width="250" height="300" />
+        <img src="/aboutme.jpg" alt="Dominick Birge" width="150" height="200" />
         </body>
     
     )

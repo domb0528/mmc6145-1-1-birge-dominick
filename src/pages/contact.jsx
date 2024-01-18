@@ -1,8 +1,9 @@
+import styles from '../styles/home.module.css'
 export default function Contact () {
     return  (
         
         <main>
-         <h1>Contact page</h1>
+         <h1 className={styles.placeholder}>Contact Page</h1>
 
          <div className="contact">
 
