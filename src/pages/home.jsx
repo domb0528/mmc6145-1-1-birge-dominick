@@ -6,7 +6,7 @@ export default function Home() {
   return (
    
     <main>
-      <h1 className={styles.placeholder}>Dominck Birge's Portfolio</h1>
+      <h1 className={styles.placeholder}>Dominick Birge's Portfolio</h1>
       <h2>Here are some of my projects I have worked on</h2>
       <h2>Click the links to go to my vercel account</h2>
 

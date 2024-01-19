@@ -22,7 +22,7 @@ h1, h2, p, ul {
   align-items: center;
   margin: 20px;
   padding: 20px;
-  color: white;
+  color: black;
   background-color: transparent;
   font-size: 20px;
 
@@ -51,7 +51,7 @@ a{
   color: rebeccapurple;
   padding: 1px;
   margin: 5px;
-  background-color: white;
+  background-color: transparent;
   transition: color 0.3s, background-color 0.3s;;
 }
 
@@ -74,6 +74,10 @@ img {
 
 @media only screen and  (max-width: 768px) {
   h1, h2, p, ul {
+    font-size: 14px;
+  }
+
+  .placeholder {
     font-size: 14px;
   }
 
