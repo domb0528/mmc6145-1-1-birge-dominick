@@ -78,7 +78,7 @@ img {
   }
 
   .placeholder {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   body {
@@ -89,6 +89,10 @@ img {
   article {
     font-size: 10px;
     margin: 30px auto 0;
+  }
+
+  img {
+    size-adjust: auto;
   }
 
 }
